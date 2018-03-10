@@ -40,7 +40,7 @@ public class MainApplication {
 		}
 		@RequestMapping("/thymeleaf")
 		public String thymeleaf(Model model) {
-			model.addAttribute("name", "我靠，跑起来了！amazing！");
+			model.addAttribute("name", "闈狅紝璺戣捣鏉ヤ簡锛岀湡浠栦箞绁炲锛宎mazing锟斤拷");
 			return "xiang";
 		}
 }
